@@ -23,7 +23,7 @@ public class Main {
         System.out.println("第二种实现测试,第一种算法用时"+(l1-l));
         main.run(mystack2);
         long l2 = System.currentTimeMillis();
-        System.out.println("第一种算法用时"+(l2-l1));
+        System.out.println("第二种算法用时"+(l2-l1));
 
     }
 
