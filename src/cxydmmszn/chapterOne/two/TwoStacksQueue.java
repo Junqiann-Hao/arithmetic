@@ -38,7 +38,7 @@ public class TwoStacksQueue {
     public int poll() throws Exception {
         if (stackPush.isEmpty() && stackPop.isEmpty()) {
             throw new Exception("队列中没有数据");
-        } else if (stackPop.isEmpty()) {
+        } else if (stackPop.empty()) {
             //弹出数据栈为空，可以将整个压入数据栈中的数据倒入弹出数据栈
             while (!stackPush.isEmpty()) {
                 stackPop.push(stackPush.pop());
