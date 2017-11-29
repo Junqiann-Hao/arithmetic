@@ -35,6 +35,7 @@ public class ReverseStack {
      * 将栈逆序
      * @param stack
      * @param <T>
+     *
      */
     public static <T> void reverse(Stack<T> stack) {
         //递归调用的返回条件
