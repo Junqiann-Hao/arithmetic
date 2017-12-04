@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * @Author hao
  * @Date 2017/12/1 11:35
- * @Description :
+ * @Description :猫狗队列的具体实现
  */
 public class DogCatQueue {
     private Queue<PetEnterQueue> dogQ;
